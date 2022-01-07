@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Rafi",
+      "last_name": "Trevillion",
+      "email": "rtrevillion0@com.com",
+      "gender": "Male",
+      "departmentId": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Giffer",
+      "last_name": "Gavin",
+      "email": "ggavin2@blogtalkradio.com",
+      "gender": "Female",
+      "departmentId": 4
+    },
+    {
+      "id": 3,
+      "first_name": "Harlin",
+      "last_name": "Wiffler",
+      "email": "hwiffler3@earthlink.net",
+      "gender": "Female",
+      "departmentId": 3
+    },
+    {
+      "id": 4,
+      "first_name": "Kresten",
+      "last_name": "Milroy",
+      "email": "kmilroy4@sbwire.com",
+      "gender": "Male",
+      "departmentId": 2
+    },
+    {
+      "id": 5,
+      "first_name": "Tiffy",
+      "last_name": "Costar",
+      "email": "tcostar5@list-manage.com",
+      "gender": "Female",
+      "departmentId": 4
+    },
+    {
+      "gender": "Male",
+      "departmentId": "3",
+      "last_name": "Kenndy",
+      "first_name": "John",
+      "email": "kKenndy@mail.com",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "first_name": "Shoshanna",
+      "last_name": "Shevell",
+      "email": "sshevell7@geocities.com",
+      "gender": "Female",
+      "departmentId": 5
+    },
+    {
+      "id": 8,
+      "first_name": "Milzie",
+      "last_name": "Bourdas",
+      "email": "mbourdas8@domainmarket.com",
+      "gender": "Male",
+      "departmentId": 1
+    },
+    {
+      "id": 9,
+      "first_name": "Mil",
+      "last_name": "Bour",
+      "email": "damniks@domainmarket.com",
+      "gender": "Male",
+      "departmentId": 2
+    },
+    {
+      "gender": "Male",
+      "departmentId": "3",
+      "last_name": "kasey",
+      "first_name": "morpheus",
+      "email": "kaseymor@mail.com",
+      "id": 10
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "department": "Human Resources"
+    },
+    {
+      "id": 2,
+      "department": "Research and Development"
+    },
+    {
+      "id": 3,
+      "department": "Legal"
+    },
+    {
+      "id": 4,
+      "department": "Sales"
+    },
+    {
+      "id": 5,
+      "department": "IT and Support"
+    }
+  ]
+}

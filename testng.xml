@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="restassured_BDD.PUT_PATCH_DELETE"/>
+      <class name="restassured_BDD.POST_Request"/>
+      <class name="restassured_BDD.GET_Single_User"/>
+      <class name="restassured_BDD.SchemaValidator"/>
+      <class name="restassured_BDD.GET_Request"/>
+      <class name="restassured_BDD.CRUD_On_Local_Server"/>
+      <class name="restassured_BDD.test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
