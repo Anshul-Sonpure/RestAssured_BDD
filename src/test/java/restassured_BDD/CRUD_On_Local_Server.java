@@ -18,8 +18,9 @@ public class CRUD_On_Local_Server {
 		.then()
 		.statusCode(200)
 		.contentType("application/json")
-		.body("[3].email",equalTo("kmilroy4@sbwire.com"));
-
+		.body("[3].email",equalTo("kmilroy4@sbwire.com")) //validate email id for user id=4
+		.body("[3].first_name",equalTo("Kresten")) // Validate the first_name
+		.body("[3].departmentId",equalTo(2)); // Validate the departmentID 
 
 	}
 	
@@ -38,7 +39,7 @@ public class CRUD_On_Local_Server {
 		.when()
 		.post("http://localhost:3000/users")
 		.then()
-		.statusCode(201)
+		.statusCode(201)  //validates the StatusCode
 		.log().all();
 		
 		}
@@ -50,7 +51,7 @@ public class CRUD_On_Local_Server {
 		JSONObject request = new JSONObject();
 		request.put("first_name", "NameSake");
 		request.put("last_name", "Kenndy");
-		request.put("email", "kKenndy@mail.com");
+		request.put("email", "KennyJohn@outlook.com");
 		request.put("gender", "Male");
 		request.put("departmentId", "3");
 		given()
@@ -60,7 +61,8 @@ public class CRUD_On_Local_Server {
 		.put("http://localhost:3000/users/6")
 		.then()
 		.statusCode(200)
-		.log().all();
+		.body("email",equalTo("KennyJohn@outlook.com")) //validate email id for user id=4
+		.body("first_name",equalTo("NameSake")); // Validate the first_name
 		
 	}
 	
@@ -82,8 +84,6 @@ public class CRUD_On_Local_Server {
 	
 	@Test
 	private void DeleteRequest() {
-		
-		
 		when()
 		.delete("http://localhost:3000/users/6")
 		.then()

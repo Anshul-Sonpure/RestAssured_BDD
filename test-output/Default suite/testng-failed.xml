@@ -5,7 +5,7 @@
     <classes>
       <class name="restassured_BDD.GET_Request">
         <methods>
-          <include name="GetRequest"/>
+          <include name="GetUserDepartmentId"/>
         </methods>
       </class> <!-- restassured_BDD.GET_Request -->
     </classes>
